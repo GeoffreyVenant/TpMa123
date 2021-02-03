@@ -1,0 +1,7 @@
+a=2*alpha
+b=1+sin(alpha)
+epsilon=1e-8
+if (a-b)<epsilon:
+    print('u40 est bien soltion')
+else:
+    print('u40 pas solution')
