@@ -1,0 +1,8 @@
+#Question 5
+x = 0
+for n in range (0,41):
+    W = (abs(g(x)-alpha))/(abs(x-alpha))
+    rho = (cos(alpha))/2
+    c = W-rho
+    print(W)
+    print(c)
