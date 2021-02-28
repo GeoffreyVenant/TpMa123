@@ -1,0 +1,9 @@
+#Question 3
+k=1/2
+x=0
+for n in range (0,41):
+    print('x=',x,'n=',n)
+    x=g(x)
+    e=abs(x-alpha)
+    M=k**n
+    print('e=',e,'M=',M)
